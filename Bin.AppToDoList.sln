@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bin.AppToDoList.DAL", "Bin.AppToDoList.DAL\Bin.AppToDoList.DAL.csproj", "{691C82DD-5D67-4613-A4A9-8EB12DAD731D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bin.AppToDoList.Services", "Bin.AppToDoList.Services\Bin.AppToDoList.Services.csproj", "{5B0301F0-FEF9-419A-96AD-47CFFC813E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bin.AppToDoList.Common", "Bin.AppToDoList.Common\Bin.AppToDoList.Common.csproj", "{76C47E2D-85F2-43BE-87E3-991344AEE321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bin.AppToDoList.API", "Bin.AppToDoList.API\Bin.AppToDoList.API.csproj", "{011BBB19-9974-4A3B-9A1E-55DBF4E3C3DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691C82DD-5D67-4613-A4A9-8EB12DAD731D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691C82DD-5D67-4613-A4A9-8EB12DAD731D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691C82DD-5D67-4613-A4A9-8EB12DAD731D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691C82DD-5D67-4613-A4A9-8EB12DAD731D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0301F0-FEF9-419A-96AD-47CFFC813E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0301F0-FEF9-419A-96AD-47CFFC813E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0301F0-FEF9-419A-96AD-47CFFC813E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0301F0-FEF9-419A-96AD-47CFFC813E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C47E2D-85F2-43BE-87E3-991344AEE321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C47E2D-85F2-43BE-87E3-991344AEE321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C47E2D-85F2-43BE-87E3-991344AEE321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C47E2D-85F2-43BE-87E3-991344AEE321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011BBB19-9974-4A3B-9A1E-55DBF4E3C3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011BBB19-9974-4A3B-9A1E-55DBF4E3C3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011BBB19-9974-4A3B-9A1E-55DBF4E3C3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011BBB19-9974-4A3B-9A1E-55DBF4E3C3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

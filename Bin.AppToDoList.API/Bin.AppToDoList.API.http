@@ -1,0 +1,6 @@
+@Bin.AppToDoList.API_HostAddress = http://localhost:5084
+
+GET {{Bin.AppToDoList.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
