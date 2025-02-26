@@ -4,6 +4,7 @@ using Bin.AppToDoList.DAL.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bin.AppToDoList.DAL.Migrations
 {
     [DbContext(typeof(AppToDoListDBContext))]
-    partial class AppToDoListDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250226165415_expiredRefreshToken")]
+    partial class expiredRefreshToken
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

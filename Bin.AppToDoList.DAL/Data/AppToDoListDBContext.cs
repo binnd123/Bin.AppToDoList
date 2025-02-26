@@ -15,7 +15,10 @@ namespace Bin.AppToDoList.DAL.Data
         {
         }
         public DbSet<Models.ToDoList> ToDoLists { get; set; } = null!;
-       
+        public DbSet<Models.Role> Roles { get; set; } = null!;
+        public DbSet<Models.User> Users { get; set; } = null!;
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=BINND;database=ToDoListDB;uid=sa;pwd=12345;TrustServerCertificate=True;MultipleActiveResultSets=True;");
